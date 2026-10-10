@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact — Silver Corporate | Pointe-Noire</title>
+<meta name="description" content="Contactez Silver Corporate à Pointe-Noire : WhatsApp, e-mail, réseaux sociaux et formulaire de contact.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main>
+
+<section class="page-head"><div class="container">
+  <nav class="crumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a> / <span>Contact</span></nav>
+  <span class="eyebrow">Contact</span>
+  <h1>Une question, un besoin, une idée ? Écrivez-nous.</h1>
+</div></section>
+
+<section class="section">
+  <div class="container grid g2" style="gap:36px;align-items:start">
+    <div class="grid">
+      <article class="card"><span class="ico"><i data-i="chat"></i></span><h3>WhatsApp</h3><p>Le moyen le plus rapide de nous joindre.</p><a class="go" data-wa href="#" target="_blank" rel="noopener"><span data-wa-text></span></a></article>
+      <article class="card"><span class="ico blue"><i data-i="mail"></i></span><h3>E-mail</h3><p>Pour un message détaillé ou un document.</p><a class="go" data-email href="#">—</a></article>
+      <article class="card"><span class="ico navy"><i data-i="pin"></i></span><h3>Localisation</h3><p>Silver Corporate, structure mère à vocation entrepreneuriale<br>Pointe-Noire, République du Congo</p><p class="small">Facebook, LinkedIn, YouTube et TikTok : liens en bas de page.</p></article>
+    </div>
+    <div class="form-box">
+      <h2 style="font-size:1.5rem;margin-bottom:18px">Formulaire de contact</h2>
+      <form id="form-contact" class="form wide" novalidate>
+        <div class="field"><label for="c-nom">Nom *</label><input id="c-nom" name="nom" required autocomplete="name"></div>
+        <div class="field"><label for="c-contact">E-mail ou téléphone *</label><input id="c-contact" name="contact" required></div>
+        <div class="field"><label for="c-objet">Objet</label>
+          <select id="c-objet" name="objet">
+            <option>Information générale</option><option>Silver Services</option><option>Jeunes Inspirés</option><option>Collaboration</option><option>Rejoindre l'équipe</option><option>Autre</option>
+          </select></div>
+        <div class="field"><label for="c-message">Message *</label><textarea id="c-message" name="message" required></textarea></div>
+        <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="btns" style="margin-top:0">
+          <button class="btn btn-green" type="submit" value="wa">Envoyer par WhatsApp</button>
+          <button class="btn btn-ghost" type="submit" value="mail">Envoyer par e-mail</button>
+        </div>
+        <p id="contact-msg" class="form-msg" role="status"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+<div id="site-footer"></div>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

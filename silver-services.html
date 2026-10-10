@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Silver Services — Services administratifs, bureautiques & numériques | Pointe-Noire</title>
+<meta name="description" content="Saisie, mise en forme, CV, impression, PowerPoint, Excel, création graphique, services web : tarifs en FCFA, packs et commande à distance à Pointe-Noire.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main>
+
+<section class="page-head"><div class="container">
+  <nav class="crumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a> / <span>Silver Services</span></nav>
+  <span class="eyebrow">Silver Services</span>
+  <h1>Services administratifs, bureautiques et numériques.</h1>
+  <p class="lead">Accessibles, professionnels, pratiques. Pour les particuliers, étudiants, entrepreneurs, commerçants et petites entreprises. Commande possible à distance.</p>
+  <div class="btns"><a class="btn btn-green" href="#commande">Commander</a><a class="btn btn-ghost" href="#tarifs">Voir les tarifs</a><a class="btn btn-ghost" href="#packs">Voir les packs</a></div>
+</div></section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Comment ça marche</span><h2>Deux parcours, selon votre besoin</h2></div>
+    <div class="grid g2">
+      <article class="big-card blue"><h3>Prestation simple</h3><ol class="how"><li>Demande</li><li>Prix</li><li>Paiement</li><li>Réalisation</li><li>Contrôle qualité</li><li>Livraison</li></ol></article>
+      <article class="big-card navy"><h3>Prestation complexe</h3><ol class="how"><li>Demande</li><li>Analyse</li><li>Devis</li><li>Validation</li><li>Paiement</li><li>Réalisation</li><li>Contrôle qualité</li><li>Livraison</li></ol></article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="tarifs">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Catalogue 2026</span><h2>Tarifs en FCFA</h2><p>Filtrez par catégorie, cherchez un service, puis cliquez sur « Choisir » pour l'ajouter à votre demande.</p></div>
+    <input id="filtre" class="filter" type="search" placeholder="Rechercher (ex. CV, PDF, affiche…)" aria-label="Rechercher un service">
+    <div class="chips" id="cat-chips" style="margin-top:0;margin-bottom:26px"></div>
+    <div class="cat-grid" id="catalogue"><div class="empty">Chargement du catalogue…</div></div>
+  </div>
+</section>
+
+<section class="section" id="packs">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Packs</span><h2>Des combinaisons à prix avantageux</h2><p>Les économies indiquées sont indicatives.</p></div>
+    <div class="grid g4" id="packs-liste"></div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Conditions</span><h2>À savoir avant de commander</h2></div>
+    <div class="grid g3">
+      <article class="card"><span class="ico"><i data-i="file"></i></span><h3>Tarifs et devis</h3><p>Tarifs en FCFA. Les prestations complexes sont évaluées avant réalisation. Des tarifs personnalisés sont possibles pour les gros volumes.</p></article>
+      <article class="card"><span class="ico blue"><i data-i="check"></i></span><h3>Délais et paiement</h3><p>Délais variables selon la prestation. Commandes à distance possibles. Certains services peuvent nécessiter un acompte.</p></article>
+      <article class="card"><span class="ico navy"><i data-i="shield"></i></span><h3>Confidentialité</h3><p>Les documents transmis sont traités de manière confidentielle. Les modifications importantes demandées après validation peuvent être facturées. Les services de tiers (frais officiels, hébergement, nom de domaine) sont facturés séparément.</p></article>
+    </div>
+    <div class="notice warn mt">Silver Services ne garantit ni emploi, ni financement, ni visa, ni admission, ni aucun résultat administratif ou dépendant d'un tiers.</div>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="container" style="max-width:820px">
+    <div class="section-head"><span class="eyebrow">Questions fréquentes</span><h2>Vos questions, nos réponses</h2></div>
+    <details class="faq"><summary>Puis-je commander sans me déplacer ?</summary><p>Oui. La demande se fait en ligne via le formulaire ci-dessous, qui ouvre WhatsApp avec votre demande. Vous y joignez vos fichiers et nous échangeons là-bas.</p></details>
+    <details class="faq"><summary>Comment payer ?</summary><p>Les moyens de paiement proposés sont indiqués dans le formulaire (par exemple Mobile Money, espèces ou transfert). Le mode retenu est confirmé avec vous avant la réalisation.</p></details>
+    <details class="faq"><summary>Combien de temps faut-il compter ?</summary><p>Les délais varient selon la prestation. Ils vous sont indiqués à la confirmation de votre demande.</p></details>
+    <details class="faq"><summary>Que signifie « à partir de » ?</summary><p>C'est le tarif minimum. Le prix final dépend de la complexité de votre demande et vous est confirmé avant le démarrage.</p></details>
+    <details class="faq"><summary>Mes documents sont-ils confidentiels ?</summary><p>Oui. Les documents transmis à Silver Services sont utilisés uniquement pour réaliser votre prestation et traités de manière confidentielle.</p></details>
+  </div>
+</section>
+
+<section class="section alt" id="commande">
+  <div class="container" style="max-width:820px">
+    <div class="section-head"><span class="eyebrow">Commande</span><h2>Passer une commande ou demander un devis</h2><p>Décrivez votre besoin. La demande s'ouvre dans WhatsApp, pré-remplie et avec une référence. Vous pourrez y joindre vos fichiers.</p></div>
+    <div class="form-box">
+      <form id="form-commande" class="form wide" novalidate>
+        <div class="field"><label for="service">Service ou pack demandé *</label><select id="service" name="service" required></select></div>
+        <div class="field"><label for="besoin">Description de votre besoin *</label><textarea id="besoin" name="besoin" required placeholder="Ex. : saisie de 8 pages, à rendre avant vendredi…"></textarea></div>
+        <div class="field"><label for="nom">Votre nom *</label><input id="nom" name="nom" required autocomplete="name"></div>
+        <div class="field"><label for="contact">Téléphone / WhatsApp *</label><input id="contact" name="contact" required autocomplete="tel"></div>
+        <div class="field"><label for="paiement">Mode de paiement souhaité</label><select id="paiement" name="paiement"></select></div>
+        <div class="field check"><input type="checkbox" id="fichiers" name="fichiers"><label for="fichiers">J'ai des fichiers à envoyer</label></div>
+        <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn btn-green" type="submit">Envoyer la demande par WhatsApp</button>
+        <p id="cmd-msg" class="form-msg" role="status"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+<div id="site-footer"></div>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
