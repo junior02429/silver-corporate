@@ -169,13 +169,23 @@ const REALISATIONS = [
    Statut "Publié" = visible ; "Brouillon" ou "Archivé" = caché.
    { titre:"…", categorie:"Annonce", statut:"Publié", date:"2026-10-08", auteur:"Silver Corporate", contenu:"Paragraphe 1.\n\nParagraphe 2.", image:"", lien:"" }, */
 const ACTUALITES = [
+  {
+    titre: "Jeunes Inspirés célèbre son deuxième anniversaire du 25 Novembre au 1er Décembre 2026",
+    catégorie:"Évenement",
+    statut:"Publié",
+    date:"2026-10-10",
+    auteur:"Silver Corporate",
+    contenu:"Le programme Jeunes Inspirés, intégré à Silver Corporate, s'apprête à célébrer son deuxième anniversaire du 25 Novembre au 1er Décembre 2026.\n\nCrée en 2024, Jeunes Inspirés porte une ambition : contribuer àl'émergence d'une jeunesse consciente, compétente et engagé. À travers ses différents axes d'intervention, le programme met en avant l'orientation, le développement des compétences, le bien-être, l'entrepreneuriat, la citoyenneté et la réalisation de projets par les jeunes. \n\nCet anniversaire représente une occassion de revenir sur la vision du programme, de renforcer les liens avec la communauté et de préparer de nouvelles perspectives pour la jeunesse. \n\nPour cette étape, Jeunes Inspirés prépare également des initiatives à favoriser les échanges, l'apprentissage et la participation des jeunes. Les informations aux activités prévues seront communniquées progressivement sur ces canaux officiels. \n\nÀ cette occassion, Jeunes Inspirés invite les jeunes, les bénévoles, les ambassadeurs, les organisations et les partenaires potentiels à suivre ses publications et à prendre part à cette dynamique. \n\nDeux années constituent une éatpe importante, mais l'ambition reste la même : encourager chaque jeune à apprendre, à réfléchir, à agir et à contribuer positivement à la société. \n\nJeunes Inspirés - Une jeunesse consciente, compétente et engagé.\n\nUn sujet. Une compréhension. Une réflexion. Une action.\n\nSuivez les actualités de Jeunes Inspirés  sur ces canaux officiels pour découvvrir les prochaines annonces liées à cet anniversaire.",
+    image:"images/anniversaire.png",
+
+  }
 ];
 
 /* ---------- Équipe ---------- */
 const EQUIPE = [
   { nom: "Beni S. J BAZOUKOULA", fonction: "Fondateur & Coordonnateur général",
     bio: "Définit la vision, oriente la stratégie, coordonne les activités et développe les partenariats de Silver Corporate.",
-    competences: "", photo: "", linkedin: "" }
+    competences: "", photo: "images/beni.jpg", linkedin: "" }
 ];
 
 /* ---------- Partenaires (partenariats réellement établis uniquement) ----------
